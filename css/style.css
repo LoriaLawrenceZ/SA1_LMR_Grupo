@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+/*----------UNIVERSAL----------*/
+*{margin: 0; padding: 0;}
+
+html{
+    font-family: 'Karla', sans-serif;
+
+    --sb-green: #00754a;
+    --light-gray: rgb(235, 235, 235);
+    --dark-gray: rgb(70, 70, 70)
+}
