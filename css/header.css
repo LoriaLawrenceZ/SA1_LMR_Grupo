@@ -54,7 +54,7 @@ header{
     font-size: 18px;
 }
 .nav-content a:hover{
-    color: var(--sb-green);
+    color: var(--nav-green);
 }
 
 /*----NEV RIGHT----*/
@@ -84,7 +84,7 @@ header{
     text-decoration: none;
 }
 .find-store-container a:hover{
-    color: var(--sb-green);
+    color: var(--nav-green);
 }
 
 .sign-content{
