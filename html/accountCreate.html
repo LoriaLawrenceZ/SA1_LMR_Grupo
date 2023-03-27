@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/accountCreate.css">
 
     <title>Caffét</title>
 
@@ -55,6 +55,95 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <article>
+            <h1>Create an account</h1>
+
+            <h2>STARBUCKS® REWARDS</h2>
+            <h3 class="subtitle">Join Starbucks Rewards to earn Stars for free food and drinks, any way you pay. Get access to mobile ordering, a birthday Reward, and <a href="#">more</a></h3>
+
+            <section>
+                <h3><span>*</span>indicates required field</h3>
+
+                <form action="mailto:lorenzozimbres@gmail.com" method="POST">
+                    <div class="personal-information">
+                        <h1>Personal Information</h1>
+
+                        <fieldset class="fn">
+                            <label for="nome" class="nome"><span>*</span>First name</label>
+                            <input type="text" name="nome" id="nome">
+                        </fieldset>
+
+                        <fieldset class="ln">
+                            <label for="last-nome" class="senha"><span>*</span>Last name</label>
+                            <input type="text" name="last-nome" id="last-nome">
+                        </fieldset>
+                    </div>
+
+                    <div class="account-security">
+                        <h1>Account Security</h1>
+
+                        <fieldset class="em">
+                            <label for="email" class="email">Email adress</label>
+                            <input type="email" name="email" id="email">
+                            <h2>This will be your username</h2>
+                        </fieldset>
+
+                        <fieldset class="se">
+                            <label for="senha" class="senha">Password</label>
+                            <input type="password" name="senha" id="senha">
+                            <h2>Create a password 8 to 25 characters long that includes at least 1 uppercase and 1 lowercase letter, 1 number and 1 special character like an exclamation point or asterisk.</h2>
+                        </fieldset>
+                    </div>
+
+                    <div class="dropdown">
+                        <h1>Already have a Starbucks gift card?</h1>
+
+                        <h2>Add your gift card to earn Stars when you pay and order ahead.</h2>
+
+                        <fieldset class="cn">
+                            <label for="card" class="card">Card number (16 digits)</label>
+                            <input type="text" name="card" id="card">
+                            <h2>No spaces or dashes</h2>
+                        </fieldset>
+
+                        <fieldset class="sc">
+                            <label for="code">Security code</label>
+                            <input type="text" name="code" id="code">
+                            <h2>Scratch to reveal 8-digit code</h2>
+                        </fieldset>
+                    </div>
+
+                    <div class="links">
+                        <h2>COLLECT MORE STARS &copy; EARN REWARDS</h2>
+
+                        <h1>Email is a great way to know about offers and whats's new from Starbucks</h1>
+
+                        <fieldset class="cb1">
+                            <input type="checkbox" name="chbox1" id="chbox1">
+                            <label for="chbox1">Yes, I'd like email from Starbucks</label>
+                            <h2>Know about initiatives, annoucements and product offers.</h2>
+                        </fieldset>
+
+                        <h2>TERMS OF USE</h2>
+            
+                        <fieldset class="cb2">
+                            <input type="checkbox" name="chbox2" id="chbox2">
+                            <label for="chbox2">I agree to the Starbucks® Rewards Terms opens in new window and the Starbucks Card Terms opens in new window and have read the <a href="#">Starbucks Privacy Statement</a>.</label>
+                            <h2>Know about initiatives, annoucements and product offers.</h2>
+                        </fieldset>
+
+                        <a href="#">Forgot your password?</a>
+                    </div>
+
+                    <fieldset class="si">
+                        <input type="submit" value="Sign in" id="sign">
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+    </main>
 
     <footer>
         <div class="about-us">
