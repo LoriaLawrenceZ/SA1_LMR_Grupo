@@ -18,8 +18,6 @@ article{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-
-    background-color: gray;
 }
 article h1{
     font-size: 32px;
@@ -36,7 +34,7 @@ section{
 
     border-radius: .75em;
 
-    box-shadow: gray 0 5px 10px;
+    box-shadow: rgb(197, 197, 197) 0 5px 10px;
 
     background-color: white;
 }
@@ -155,7 +153,7 @@ section span{
 aside{
     height: 25%;
     width: 45%;
-    background-color: var(--banner5-green);
+    background-color: rgb(237, 255, 230);
     border-radius: 1em;
 
     display: flex;
@@ -175,18 +173,32 @@ aside{
 
 .text h1{
     height: 15%;
+    font-size: 20px;
+    color: var(--nav-green);
 }
 .text h2{
-    height: 50%;
+    height: 35%;
+    font-size: 18px;
 }
 .btn{
     width: 25%;
     height: 15%;
     border: solid var(--nav-green) 1px;
     border-radius: 2em;
-    color: var(--nav-green);
+
+    cursor: pointer;
+    transition: .2s;
     
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btn a{
+    color: var(--nav-green);
+    text-decoration: none;
+    width: 100%;
+}
+.bnt:hover{
+    transition: .2s;
+    background-color: rgb(182, 219, 164);
 }
