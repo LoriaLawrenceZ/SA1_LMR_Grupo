@@ -1,0 +1,132 @@
+/*----------HEADER----------*/
+header{
+    height: 7em;
+
+    box-shadow: gray 0 1px 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/*----NEV LEFT----*/
+.nav-container-left{
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.logo-container{
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    height: 4em;
+}
+
+.nav-content{
+    width: 75%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu, .rewards, .giftCards{
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-content a{
+    color: black;
+    text-decoration: none;
+
+    align-self: center;
+
+    font-size: 18px;
+}
+.nav-content a:hover{
+    color: var(--nav-green);
+}
+
+/*----NEV RIGHT----*/
+.nav-container-right{
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.find-store-container{
+    width: 40%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-store-img{
+    height: 2em;
+    display: block;
+}
+
+.find-store-container a{
+    color: black;
+    text-decoration: none;
+}
+.find-store-container a:hover{
+    color: var(--nav-green);
+}
+
+.sign-content{
+    height: 100%;
+    width: 60%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in, .join{
+    height: 30%;
+    width: 40%;
+    border: solid black 1px;
+    border-radius: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: .2s;
+}
+.join{
+    background-color: black;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: black;
+}
+.join a{
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in:hover{
+    background-color: var(--light-gray);
+    transition: .2s;
+} .join:hover{
+    background-color: var(--dark-gray);
+    transition: .2s;
+}
+

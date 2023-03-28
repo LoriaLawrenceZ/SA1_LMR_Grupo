@@ -1,0 +1,37 @@
+/*----------FOOTER----------*/
+footer{
+    height: 25em;
+
+    box-shadow: gray 0 1px 5px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us, .careers, .social-impact, .business-partners, .order-pickup{
+    width: 15%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+.about-us h1, .careers h1, .social-impact h1, .business-partners h1, .order-pickup h1{
+    height: 15%;
+    font-size: 20px;
+}
+
+.au-content, .c-content, .si-content, .bp-content, .op-content{
+    height: 85%;
+
+    display: flex;
+    flex-direction: column;
+}
+.au-content a, .c-content a, .si-content a, .bp-content a, .op-content a{
+    height: 20%;
+    color: gray;
+    text-decoration: none;
+}
+.au-content a:hover, .c-content a:hover, .si-content a:hover, .bp-content a:hover, .op-content a:hover{
+    color: black;
+}

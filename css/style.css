@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*----------UNIVERSAL----------*/
+*{margin: 0; padding: 0;}
+
+html{
+    font-family: 'Karla', sans-serif;
+
+    --nav-green: #00754a;
+
+    --banner1-dark-green: #004b2f;
+    --banner1-dark-green-hover: #003320;
+
+    --banner2-green: rgb(160, 194, 144);
+    --banner2-green-hover: rgb(128, 161, 112);
+
+    --banner3-pink: rgb(244, 188, 215);
+    --banner3-pink-hover: rgb(221, 160, 189);
+
+    --banner4-yellow: rgb(255, 243, 214);
+    --banner4-yellow-hover: rgb(228, 214, 181);
+
+    --banner5-green: rgb(208, 238, 194);
+    --banner5-green-hover: rgb(169, 206, 151);
+
+    --light-gray: rgb(235, 235, 235);
+    --dark-gray: rgb(70, 70, 70)
+}
