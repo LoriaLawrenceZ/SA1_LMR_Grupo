@@ -1,0 +1,152 @@
+article{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.container {
+    margin: 10;
+    background-color: var(--bege-claro);
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 2em;
+   
+}
+.container figure{
+    width: 40%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 2em;
+}
+.texto{
+    background-color: var(--bege-claro);
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color:var(--marrom-claro);
+}
+a{
+    color: white;
+}
+.btn{
+    border: solid 2px rgb(0, 0, 0);
+    width: 25%;
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: center;
+   
+}
+.btn:hover{
+    background-color: var(--bege-escuro);
+}
+
+
+
+.container2{
+    margin: 10;
+    background-color: var(--bege-claro);
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border-radius: 2em;
+
+}
+.container2 figure{
+    width: 40%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 2em;
+}
+.texto2{
+    background-color: var(--bege-claro);
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color:var(--marrom-claro);
+}
+.btn2{
+    border: solid 2px rgb(0, 0, 0);
+    width: 25%;
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.btn2:hover{
+    background-color: var(--bege-escuro);
+}
+
+
+
+
+
+.container3{
+    margin: 10;
+    background-color: var(--bege-claro);
+    width: 90%;
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 2em;
+}
+
+.container3 figure{
+    width: 40%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 2em;
+    
+}
+.texto3{
+    background-color: var(--bege-claro);
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color:var(--marrom-claro);
+}
+.btn3{
+    border: solid 2px rgb(0, 0, 0);
+    width: 25%;
+    border-radius: 1em;
+
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.btn3:hover{
+    background-color: var(--bege-escuro);
+}
+body{
+    background-color: var(--marrom-escuro);
+}

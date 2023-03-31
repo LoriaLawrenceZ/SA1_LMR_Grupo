@@ -1,0 +1,11 @@
+aside{
+    width: 35%;
+    display: flex;
+}
+figure{
+    width: 80%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
