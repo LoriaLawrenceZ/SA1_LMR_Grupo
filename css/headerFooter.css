@@ -1,0 +1,15 @@
+/*----------UNIVERSAL----------*/
+@charset "UTF-8";
+
+*{margin: 0; padding: 0}
+
+html{
+    --marrom-escuro: #291e16
+    --marrom: #403531;
+    --marrom-claro: #473c36;
+    --bege-escuro: #d9c1b4;
+    --bege-claro: #f0e0d6;
+    --laranja-claro: #d9ac84;
+    --laranja-escuro: #8c593b;
+    --vinho: #702f3e;
+}
