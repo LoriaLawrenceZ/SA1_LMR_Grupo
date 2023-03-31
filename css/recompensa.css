@@ -1,0 +1,69 @@
+body{
+    margin: 0%;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bigbox{
+    width: 60%;
+    height: 40em;
+    background-color: var(--bege-escuro);
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.apoio{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.insignias{
+    width: 30%;
+}
+.insignias img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    
+}
+.smallbox{
+    width: 40%;
+    height: 40em;
+    background-color: var(--bege-escuro);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.mediumbox{
+    width: 100%;
+    height: 10em;
+    background-color: var(--marrom);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inferior{
+    color: white;
+}
+.inferior img{
+    width: 200px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 2em;
+    background-color: var(--bege-claro);
+}
+button:hover{
+    background-color: var(--bege-escuro);
+}

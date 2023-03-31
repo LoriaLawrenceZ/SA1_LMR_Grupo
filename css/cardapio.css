@@ -1,11 +1,70 @@
+main{
+}
+
+.all{
+    height: 60em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 aside{
+    z-index: -1;
+    height: 100%;
     width: 35%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: var(--bege-escuro);
+    color: white;
 }
-figure{
-    width: 80%;
+.all figure{
+    height: 50%;
+    width: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.all img{
+    height: 100%;
+}
+
+.banner1, .banner2, .banner3{
+    z-index: -1;
+    height: 30%;
+    width: 65%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-color: var(--bege-claro);
+}
+.banner2{
+    background-color: white;
+}
+.banner3{
+    height: 40%;
+}
+.banner1 figure, .banner2 figure, .banner3 figure{
+    width: 60%;
+    height: 60%;
+    display: flex;
+}
+.banner1 figure, .banner3 figure{
+    justify-content: flex-start;
+}
+.banner2 figure{
+    justify-content: flex-end;
+}
+.banner3 figure{
+    height: 45%;
+}
+.text{
+    width: 60%;
+    height: 40%;
 }
