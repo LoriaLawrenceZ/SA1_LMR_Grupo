@@ -13,3 +13,42 @@ html{
     --laranja-escuro: #8c593b;
     --vinho: #702f3e;
 }
+
+/*----HEADER----*/
+header{
+    height: 5em;
+    background-color: var(--bege-claro);
+
+    display: flex;
+    justify-content: space-between;
+}
+
+figure{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    height: 5em;
+}
+
+nav{
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+/*----FOOTER----*/
+footer{
+    background-color: var(--bege-claro);
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
